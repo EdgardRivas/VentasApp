@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name" translatable="false">VentasApp</string>
+
+    <!--Options-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Alert</string>
+    <string name="error">Error</string>
+    <string name="select">Select</string>
+    <string name="select_company">Select your company:</string>
+    <string name="company">Sending data to server</string>
+
+    <!--Login-->
+    <string name="mobile_network">Connected via mobile</string>
+    <string name="wifi_network">Connected via Wi-Fi</string>
+    <string name="no_network">You must be connected to network</string>
+    <string name="open_network_settings">Open network settings</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember me</string>
+    <string name="login">Sign in</string>
+    <string name="loading">Loading</string>
+    <string name="welcome">Welcome</string>
+    <string name="required">This field is required</string>
+    <string name="error_login">Mail or password incorrect</string>
+    <string name="eMail">This mail address is invalid</string>
+    <string name="ePass">This password is too short</string>
+
+    <!--Tabs-->
+    <string name="contacts">Contacts</string>
+    <string name="schedule">Schedule</string>
+    <string name="calendar">Calendar</string>
+
+    <!--ContactsFragment-->
+    <string name="options">Options:</string>
+    <string name="open_dial">Make a call</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="edit_contact">Edit contact</string>
+    <string name="save_contact">Save contact</string>
+    <string name="delete_contact">Delete contact</string>
+    <string name="wait">Please Wait</string>
+    <string name="empty">All fields marked with * are required</string>
+
+    <!--Contact Fields-->
+    <string name="asterisk" translatable="false">*</string>
+    <string name="contact_id" translatable="false">ID: </string>
+    <string name="contact_first_name">First Name: </string>
+    <string name="contact_last_name">Last Name: </string>
+    <string name="contact_phone">Phone Number: </string>
+    <string name="contact_mail">Email: </string>
+    <string name="hint_phone">Please include area (ex.: +503)</string>
+
+    <!--Add-->
+    <string name="adding_contact">Adding contact…</string>
+    <string name="add_ok">Contact added</string>
+    <string name="add_error">Error adding contact, try again</string>
+    <!--Edit-->
+    <string name="editing_contact">Editing contact…</string>
+    <string name="edit_ok">Contact Edited</string>
+    <string name="edit_error">Error editing contact, try again</string>
+    <!--Delete-->
+    <string name="deleting_contact">Deleting contact…</string>
+    <string name="delete_ok">Contact deleted</string>
+    <string name="delete_error">Error deleting contact, try again</string>
+
+
+    <string name="esa" translatable="false">ESA</string>
+    <string name="hon" translatable="false">HON</string>
+    <string name="nic" translatable="false">NIC</string>
+
+    <string name="pjc" translatable="false">PJC</string>
+    <string name="bri" translatable="false">Brillat</string>
+
+    <string name="con" translatable="false">Confía</string>
+
+    <string name="sie" translatable="false">Sierras de Paz</string>
+    <string name="pre" translatable="false">Prever</string>
+
+
+
+    <string name="todo" translatable="false">TODO</string>
+
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:orientation="vertical">
+
+        <!--Select company-->
+        <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_company"
+            android:textAppearance="?android:textAppearanceLarge"/>
+    </LinearLayout>
+        <!--Flag Images-->
+        <LinearLayout
+        android:paddingTop="5dp"
+        android:background="@drawable/form_borders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/esa" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/hon"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/nic"/>
+    </LinearLayout>
+        <!--Flag Names-->
+        <RadioGroup
+            android:id="@+id/rgFlags"
+            android:background="@drawable/form_borders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="90"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdbESA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/esa"/>
+
+            <RadioButton
+                android:id="@+id/rdbHON"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/hon"/>
+
+            <RadioButton
+                android:id="@+id/rdbNIC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nic"/>
+        </RadioGroup>
+        <!--Companies-->
+        <RadioGroup
+            android:id="@+id/rgCompanies"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/form_borders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="80dp"
+            android:paddingEnd="80dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rdbPjc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pjc"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/rdbBri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bri"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/rdbCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/con"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/rdbSie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sie"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/rdbPre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pre"
+                android:enabled="false"/>
+        </RadioGroup>
+        <!--Button Select-->
+        <LinearLayout
+            android:background="@drawable/form_borders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSelect"
+                style="?android:textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="@string/select"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
